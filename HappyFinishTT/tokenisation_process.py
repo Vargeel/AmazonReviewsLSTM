@@ -103,14 +103,20 @@ def main(reviews,scores,test=False):
     train_y = [[1.0]] * len(train_x_1) + [[2.0]] * len(train_x_2) + [[3.0]] * len(train_x_3) + [[4.0]] * len(train_x_4) + [[5.0]] * len(train_x_5)
 
     if not test:
+        if os.path.isfile('data.pkl'):
+            os.remove('data.pkl')
         f = open('data.pkl', 'wb')
         pkl.dump((train_x, train_y), f, -1)
         f.close()
 
+        if os.path.isfile('data.dict.pkl'):
+            os.remove('data.dict.pkl')
         f = open('data.dict.pkl', 'wb')
         pkl.dump(dictionary, f, -1)
         f.close()
     else:
+        if os.path.isfile('data_test.pkl'):
+            os.remove('data_test.pkl')
         f = open('data_test.pkl', 'wb')
         pkl.dump((train_x, train_y), f, -1)
         f.close()

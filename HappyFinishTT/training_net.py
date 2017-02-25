@@ -30,10 +30,9 @@ def print_progress(iteration, total, prefix='', suffix='', decimals=1, bar_lengt
 
 networkConfig = dict(
     batch_size=20,  # The batch size during training.
-    learning_rate = 1e-3,
-    num_layers = 1,
-    num_steps = 100,
-    hidden_size = 256,
+    learning_rate = 1e-4,
+    num_steps = 62,
+    hidden_size = 128,
     output_size = 1,
     max_epoch = 100,
     input_keep_prob = 1.0,
@@ -216,7 +215,7 @@ def train(path_preproc):
                 error_test += error.eval(feed_dict={input_data: batch_test[0], mask: batch_test[1], labels: batch_test[2], input_keep_prob: 1.0, output_keep_prob: 1.0})
             print("Validation error: {}".format(error_test/len(batches_test)))
             if error_test/len(batches_test)<min_error:
-                save_path = saver.save(sess, "models/model.ckpt")
+                save_path = saver.save(sess, "model/model.ckpt")
                 print("Model saved in file: %s" % save_path)
                 min_error = error_test/len(batches_test)
 

@@ -169,7 +169,7 @@ def test(path_preproc):
 
 
     saver = tf.train.Saver()
-    saver.restore(sess, "models/model.ckpt")
+    saver.restore(sess, "model/model.ckpt")
 
 
 

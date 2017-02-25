@@ -33,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="training_net.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="training_net.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/training_net.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="218" column="46" selection-start-line="218" selection-start-column="46" selection-end-line="218" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.59850377">
+              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -59,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/testing_net.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <caret line="171" column="30" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="30" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -67,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="preprocess.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="preprocess.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78553617">
-              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -83,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/tokenisation_process.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+              <caret line="105" column="31" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
               <folding>
                 <element signature="e#418#436#0" expanded="true" />
               </folding>
@@ -105,10 +105,10 @@
       <list>
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/scripts.py" />
+        <option value="$PROJECT_DIR$/preprocess.py" />
+        <option value="$PROJECT_DIR$/testing_net.py" />
         <option value="$PROJECT_DIR$/tokenisation_process.py" />
         <option value="$PROJECT_DIR$/training_net.py" />
-        <option value="$PROJECT_DIR$/testing_net.py" />
-        <option value="$PROJECT_DIR$/preprocess.py" />
       </list>
     </option>
   </component>
@@ -580,30 +580,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tokenisation_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
-          <folding>
-            <element signature="e#418#436#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training_net.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="218" column="46" selection-start-line="218" selection-start-column="46" selection-end-line="218" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing_net.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <caret line="171" column="30" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="30" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -612,10 +592,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78553617">
-          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tokenisation_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="105" column="31" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
+          <folding>
+            <element signature="e#418#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_net.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59850377">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

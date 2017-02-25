@@ -1,0 +1,29 @@
+In [1]: %run preprocess.py
+In [2]: my_dict2 = dict((y,x) for x,y in dictionary.iteritems())
+
+In [39]: for i in train_x[0] : print my_dict2[i]
+
+&quot;
+great
+read
+.
+but
+having
+seen
+the
+movie
+first
+,
+i
+knew
+the
+twists
+that
+were
+coming
+.
+great
+story
+though
+!
+&quot;
