@@ -30,10 +30,9 @@ def print_progress(iteration, total, prefix='', suffix='', decimals=1, bar_lengt
 
 networkConfig = dict(
     batch_size=20,  # The batch size during training.
-    learning_rate = 1e-3,
-    num_layers = 1,
+    learning_rate = 1e-4,
     num_steps = 100,
-    hidden_size = 256,
+    hidden_size = 128,
     output_size = 1,
     max_epoch = 100,
     input_keep_prob = 1.0,
