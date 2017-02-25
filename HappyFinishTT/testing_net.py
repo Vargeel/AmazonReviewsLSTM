@@ -1,9 +1,9 @@
-import time
 import sys
 import numpy as np
 import tensorflow as tf
 from tensorflow.contrib import rnn
 import scripts
+from training_net import networkConfig
 from preprocess import preprocess
 def print_progress(iteration, total, prefix='', suffix='', decimals=1, bar_length=100):
     """
@@ -28,18 +28,6 @@ def print_progress(iteration, total, prefix='', suffix='', decimals=1, bar_lengt
     sys.stdout.flush()
 
 
-networkConfig = dict(
-    batch_size=20,  # The batch size during training.
-    learning_rate = 1e-3,
-    num_layers = 1,
-    num_steps = 100,
-    hidden_size = 256,
-    output_size = 1,
-    max_epoch = 100,
-    input_keep_prob = 1.0,
-    output_keep_prob = 1.0,
-    bidirectional = False,
-    Masked = True)
 
 def get_config():
     return networkConfig

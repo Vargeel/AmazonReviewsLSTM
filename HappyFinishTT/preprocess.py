@@ -40,4 +40,5 @@ def preprocess(path_to_csv = 'amazon_book_reviews/',test=False):
 
     np.save('review',np.asarray(reviews))
     np.save('scores',np.asarray(scores))
+    
     tp.main(np.asarray(reviews),np.asarray(scores),test=test)
